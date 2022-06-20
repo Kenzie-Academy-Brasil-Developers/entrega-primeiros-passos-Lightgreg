@@ -25,6 +25,7 @@ let totalvinho = (vinho * vinho_x)
 
 let total =(totalrefrigerante+totalmacarrao+totalervilha+totalarroz+totalfeijao+totalvinho)
 alert("esse é o total "+total)
+console.log("esse é o total "+total)
 
 let  somatotal= total * 100;
   if(somatotal % 2 === 0){
