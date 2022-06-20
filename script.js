@@ -1,4 +1,4 @@
-const refrigerante_x = 4
+const refrigerante_x = 3
 const macarrao_x = 4
 const ervilha_x = 3
 const arroz_x = 3
