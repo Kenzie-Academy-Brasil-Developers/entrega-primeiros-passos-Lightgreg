@@ -23,8 +23,9 @@ let feijao = (valor_feijao * feijao_x)
 let valor_vinho = prompt("preço vinho")
 let vinho = (valor_vinho * vinho_x)
 
-let total = (refrigerante+macarrao+ervilha+arroz+feijao+vinho)
-let metade = (total/2)
+let total = parseInt(refrigerante+macarrao+ervilha+arroz+feijao+vinho)
+let total2 = parseInt(refrigerante+macarrao+ervilha+arroz+feijao)
+let metade = parseInt(total/2)
 
 
 if(total%2 == 0){
@@ -32,10 +33,10 @@ if(total%2 == 0){
     amigo = metade.toFixed(2)
     alert("valor que eu vou pagar = "+eu+" e o que voce vai pagar = "+amigo)
   }else{
-    eu = (metade-vinho).toFixed(2)
-    amigo = (metade+vinho).toFixed(2)  
+    eu = (total2).toFixed(2)
+    amigo = (total2+vinho).toFixed(2)  
     alert("valor que eu vou pagar = "+eu+" e o que voce vai pagar = "+amigo)
 }
 
-  
+  // let produtos = (refrigerante||macarrao||ervilha||arroz||feijao||vinho)
  
