@@ -1,31 +1,37 @@
-const refrigerante_x = 3
-const macarrao_x = 4
-const ervilha_x = 3
-const arroz_x = 3
-const feijao_x = 2
-const vinho_x = 3
+let refrigerante_x = prompt("quantidade de refrigerantes")
+let macarrao_x = prompt("quantidade de macarrao")
+let ervilha_x = prompt("quantidade de ervilha")
+let arroz_x = prompt("quantidade de arroz")
+let feijao_x = prompt("quantidade de feijao")
+let vinho_x = prompt("quantidade de vinho")
 
-let refrigerante = 11.99
-let totalrefrigerante = (refrigerante * refrigerante_x)
+const refrigerante = prompt("valor do refrigerante")
+const totalrefrigerante = (refrigerante * refrigerante_x)
+alert (totalrefrigerante)
 
-let macarrao = 6.99
-let totalmacarrao = (macarrao * macarrao_x)
+const macarrao = prompt("valor do macarrao")
+const totalmacarrao = (macarrao * macarrao_x)
+alert(totalmacarrao)
 
-let ervilha = 6.99
-let totalervilha = (ervilha * ervilha_x)
+const ervilha = prompt("valor do  ervilha")
+const totalervilha = (ervilha * ervilha_x)
+alert(totalervilha)
 
-let arroz = 22.99
-let totalarroz = (arroz * arroz_x)
+const arroz = prompt("valor do arroz")
+const totalarroz = (arroz * arroz_x)
+alert(totalarroz)
 
-let feijao = 11.89
-let totalfeijao = (feijao * feijao_x)
+const feijao = prompt("valor do feijao")
+const totalfeijao = (feijao * feijao_x)
+alert(totalfeijao)
 
-let vinho = 70.00
-let totalvinho = (vinho * vinho_x)
+const vinho = prompt("valor do vinho")
+const totalvinho = parseFloat(vinho * vinho_x)
+alert(totalvinho)
 
 let total =(totalrefrigerante+totalmacarrao+totalervilha+totalarroz+totalfeijao+totalvinho)
-alert("esse é o total "+total)
-console.log("esse é o total "+total)
+alert(total)
+console.log (`o valor total é ${total}`)
 
 let  somatotal= total * 100;
   if(somatotal % 2 === 0){
