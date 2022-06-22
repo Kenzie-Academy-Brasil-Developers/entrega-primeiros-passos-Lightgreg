@@ -30,9 +30,11 @@ const totalvinho = parseFloat(vinho * vinho_x)
 alert(totalvinho)
 
 let total =(totalrefrigerante+totalmacarrao+totalervilha+totalarroz+totalfeijao+totalvinho)
-alert(total)
-console.log (`o valor total é ${total}`)
 
+alert(total)
+///////////////////////////////////////////////////////////
+console.log (`o valor total é ${total}`)
+/////////////////////////////////////////////////////////// 
 let  somatotal= total * 100;
   if(somatotal % 2 === 0){
     eu = (total/2).toFixed(2)
@@ -43,6 +45,7 @@ let  somatotal= total * 100;
     amigo = ((total-totalvinho)/2+totalvinho).toFixed(2)  
     alert("valor que eu vou pagar = "+eu+" e o que voce vai pagar = "+amigo)
 }
+
 
   // let produtos = (refrigerante||macarrao||ervilha||arroz||feijao||vinho)
  
